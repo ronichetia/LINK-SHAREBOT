@@ -4,13 +4,13 @@ from os import environ
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8917128677:AAGjAINjuZme0jH2MkXczuMnQulA7_nM_00")
 BOT_USERNAME = 'CantarellaBots'
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "39020336"))
+API_HASH = os.environ.get("API_HASH", "b6b6742ac6ad6936dfc88caeac95b7a4")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6197002126"))
 PORT = os.environ.get("PORT", "8080")
-DB_URL = os.environ.get("DB_URI", "")
+DB_URL = os.environ.get("DB_URI", "mongodb+srv://VishnuJs:sfphtBLg@cluster0.lku9w7d.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "CantarellaBots")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 COMMAND_PHOTO = os.environ.get("COMMAND_PHOTO", "https://ibb.co/DHqBS4V7")  # Replace with your photo URL
